@@ -20,7 +20,18 @@ A comprehensive Spring Boot application with Vaadin Flow UI for personal finance
 - **Build Tool**: Maven
 - **Java Version**: 21 (Amazon Corretto 23)
 
+![img.png](img.png)
+![img_1.png](doc_images/img_1.png)
+![img_2.png](doc_images/img_2.png)
+![img_3.png](doc_images/img_3.png)
+![img_4.png](doc_images/img_4.png)
+![img_5.png](doc_images/img_5.png)
+![img_6.png](doc_images/img_6.png)
+
+
 ## Quick Start
+
+
 
 ### Prerequisites
 
