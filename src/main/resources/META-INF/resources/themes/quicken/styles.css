@@ -1,0 +1,35 @@
+/* Ensure Vaadin icons are loaded properly */
+@import url('@vaadin/vaadin-lumo-styles/icons');
+
+/* Force load Vaadin icon fonts */
+vaadin-icon {
+  font-family: 'lumo-icons', 'Vaadin Icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.25em;
+  text-align: center;
+  vertical-align: top;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* SideNav icon spacing fix */
+vaadin-side-nav-item vaadin-icon {
+  margin-inline-end: var(--lumo-space-s);
+}
+
+/* Dashboard card styling */
+.dashboard-card {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+  box-shadow: var(--lumo-box-shadow-m);
+}

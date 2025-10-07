@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: erwachen-app
+  
+  datasource:
+    url: jdbc:h2:mem:erwachen;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
+  
+
+server:
+  port: 8080
+
+vaadin:
+  productionMode: false
+  whitelisted-packages: com.finance.erwachen
+  servlet:
+    push-mode: disabled
+
+# Bank API Configuration (placeholder values)
+bank:
+  schwab:
+    api-url: https://api.schwab.com
+    client-id: ${SCHWAB_CLIENT_ID:your-client-id}
+    client-secret: ${SCHWAB_CLIENT_SECRET:your-client-secret}
+    redirect-uri: http://localhost:8080/callback/schwab
+  
+  bofa:
+    api-url: https://api.bankofamerica.com
+    client-id: ${BOFA_CLIENT_ID:your-client-id}
+    client-secret: ${BOFA_CLIENT_SECRET:your-client-secret}
+    redirect-uri: http://localhost:8080/callback/bofa
+
+logging:
+  level:
+    com.finance.erwachen: DEBUG
+    org.springframework.security: DEBUG

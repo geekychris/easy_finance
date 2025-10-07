@@ -1,0 +1,16 @@
+Date,Description,Amount,Account,Category,Type,Payee,Memo
+2024-01-15,Grocery Shopping,-89.47,Checking Account,Groceries,DEBIT,Whole Foods,Weekly grocery shopping
+2024-01-15,Gas Station,-45.20,Checking Account,Transportation,DEBIT,Shell,Fill up car
+2024-01-16,Salary Deposit,3500.00,Checking Account,Salary,CREDIT,ABC Company,Monthly salary
+2024-01-17,Coffee,-4.95,Checking Account,Dining Out,DEBIT,Starbucks,Morning coffee
+2024-01-17,Rent Payment,-1200.00,Checking Account,Housing,DEBIT,Property Management,January rent
+2024-01-18,Online Shopping,-156.78,Credit Card,Shopping,DEBIT,Amazon,Books and supplies
+2024-01-19,Restaurant Dinner,-67.50,Credit Card,Dining Out,DEBIT,Italian Bistro,Date night dinner
+2024-01-20,Gym Membership,-89.99,Checking Account,Health & Fitness,DEBIT,FitLife Gym,Monthly membership
+2024-01-21,Freelance Payment,750.00,Checking Account,Freelance Income,CREDIT,Design Client,Website project
+2024-01-22,Electric Bill,-125.30,Checking Account,Utilities,DEBIT,PG&E,January electricity
+2024-01-23,Grocery Shopping,-112.85,Checking Account,Groceries,DEBIT,Safeway,Weekly groceries
+2024-01-24,ATM Withdrawal,-100.00,Checking Account,Cash Withdrawal,DEBIT,Bank ATM,Cash for weekend
+2024-01-25,Investment Deposit,500.00,Savings Account,Investment,CREDIT,Self Transfer,Monthly savings
+2024-01-26,Phone Bill,-85.50,Credit Card,Utilities,DEBIT,Verizon,Monthly phone service
+2024-01-27,Car Insurance,-245.67,Checking Account,Insurance,DEBIT,State Farm,6-month premium
