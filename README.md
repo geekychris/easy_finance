@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Easy Finance logo" width="180">
+</p>
+
 # Erwachen Finance Management Application
 
 A comprehensive Spring Boot application with Vaadin Flow UI for personal finance management, featuring bank account integration with Schwab and Bank of America.
